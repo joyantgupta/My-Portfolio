@@ -6,7 +6,7 @@ body, html {
 }
 
 @media (max-width: 1024px) {
-    .header {
+    .header{
         gap: 2em !important;
         padding-left: 20px !important;
         padding-right: 20px !important;
@@ -31,7 +31,7 @@ body, html {
     }
 }
 
-@media (max-width: 830px) {
+@media (min-width: 426px) and (max-width: 768px){
     .header {
         height: 7em;
         display: flex;
@@ -53,6 +53,7 @@ body, html {
     }
     .first-block-2nd {
         flex-direction: column !important;
+        margin-left: 10em;
     }
     .first-block-content {
         margin-left: 0.5em;
@@ -98,33 +99,17 @@ body, html {
     .about-me p{
         font-size: .8em !important;
     }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 830px) {
-    .first-block-2nd {
-        margin-left: 10em;
+    .edu-item:nth-child(2){
+        padding-left: calc(52%) !important;
+    }
+    .edu-item:nth-child(3){
+        padding-right: calc(52%) !important;
+    }
+    .edu-item:nth-child(4){
+        padding-left: calc(52%) !important;
+    }
+    .edu-item:nth-child(5){
+        padding-right: calc(43%) !important;
     }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 375px){
-    .header {
-        gap: 1.5em !important;
-        padding-left: 15px !important;
-        padding-right: 15px !important;
-    }
-    .navbar {
-        gap: 0.5em !important;
-    }
-    .home {
-        margin-right: 20px;
-    }
-    .first-block-content {
-        margin-top: 80px;
-    }
-    .first-block-img {
-        margin-top: 40px;
-    }
-    .name, .soft-dev {
-        font-size: 1.8em !important;
-    }
-}
