@@ -63,7 +63,6 @@ body{
     font-family: "Playwrite NG Modern", cursive;
     display: flex;
     text-decoration: none;
-
 }
 .logo span{
     color: aqua;
@@ -71,6 +70,7 @@ body{
 .logo:hover{
     transform: scale(1.2);
 }
+
 .navbar{
     display: flex;
     margin-left: 20px;
@@ -178,6 +178,9 @@ body{
     color: inherit;
     cursor: url(image_3/icon-0.png), pointer;
     transition: all 0.3s ease;
+}
+.resume a:hover{
+    color: var(--main-color);
 }
 .resume:hover{
     cursor: url(image_3/icon-0.png), pointer;

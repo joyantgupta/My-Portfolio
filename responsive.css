@@ -1,0 +1,101 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+@media (max-width: 1024px) {
+    .header {
+        gap: 2em !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .navbar {
+        gap: 0 !important;
+    }
+    .home {
+        margin-right: 30px;
+    }
+    .first-block-content {
+        margin-top: 100px;
+    }
+    .first-block-img {
+        margin-top: 50px;
+    }
+    .name, .soft-dev {
+        font-size: 2em !important;
+    }
+}
+
+@media (max-width: 830px) {
+    .header {
+        height: 7em;
+        display: flex;
+        flex-direction: column;
+        gap: 2em !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .logo {
+        font-size: small;
+    }
+    .navbar {
+        display: none !important;
+    }
+    .home {
+        margin-top: 170px !important;
+        margin-left: 30px !important;
+        margin-right: 30px !important;
+    }
+    .first-block-2nd {
+        flex-direction: column !important;
+    }
+    .first-block-content {
+        margin-left: 0.5em;
+        margin-right: 0.8em;
+        width: 100%;
+        max-width: 900px;
+    }
+    .first-block-img {
+        order: -1;
+    }
+    .circle-img {
+        width: 200px !important;
+        height: 200px !important;
+        padding: 0;
+    }
+    .hello, .name, .soft-dev {
+        font-size: 1.3em !important;
+        margin-left: 30px !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 830px) {
+    .first-block-2nd {
+        margin-left: 10em;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+    .header {
+        gap: 1.5em !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .navbar {
+        gap: 0.5em !important;
+    }
+    .home {
+        margin-right: 20px;
+    }
+    .first-block-content {
+        margin-top: 80px;
+    }
+    .first-block-img {
+        margin-top: 40px;
+    }
+    .name, .soft-dev {
+        font-size: 1.8em !important;
+    }
+}
